@@ -1,0 +1,138 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "title": "Initial decision",
+      "landmark": "Westminster",
+      "type": "decision",
+      "question": "How do you respond to your board?",
+      "option1": {
+        "response": "You agree to implement AI.",
+        "outcome": "You agree that AI should be used in the organisation. The board press you for details and want something delivered in the next quarter.",
+        "security_risk_impact": 0,
+        "project_delay_impact": 0,
+        "board_happiness_impact": 10
+      },
+      "option2": {
+        "response": "You refuse to implement AI (you have seen Terminator; they won't fool you…)",
+        "outcome": "Game over, try again. Your competitors outscale you by taking advantage of the efficiency gains offered by the new AI technology. Your company, unable to keep pace, ends up going out of business.",
+        "security_risk_impact": 0,
+        "project_delay_impact": 0,
+        "board_happiness_impact": -100,
+        "game_over": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Use case identification",
+      "landmark": "St Paul's",
+      "type": "decision",
+      "question": "But what do you implement now?",
+      "option1": {
+        "response": "You focus on the board's timeline and launch an AI enablement programme for every service line to create its own AI agents.",
+        "outcome": "Because of the high visibility of the topic, you are allocated funding to start a programme that rolls out a widely available AI development environment.",
+        "security_risk_impact": -10,
+        "project_delay_impact": 0,
+        "board_happiness_impact": 0
+      },
+      "option2": {
+        "response": "You scope and select a small number of use cases that can show value quickly.",
+        "outcome": "You go through a sourcing process and bring in a third party with AI-enablement experience to carry out the analysis.",
+        "security_risk_impact": 0,
+        "project_delay_impact": 0,
+        "board_happiness_impact": 10
+      }
+    },
+    {
+      "id": 3,
+      "title": "Scoping",
+      "landmark": "The City",
+      "type": "comment",
+      "message": "The scope begins to take shape. You have a visible opportunity, but every promise you make now will create expectations for the teams who must deliver it."
+    },
+    {
+      "id": 4,
+      "title": "Technology selection",
+      "landmark": "Tower Bridge",
+      "type": "comment",
+      "message": "Your teams select the foundation technology and start connecting it to the organisation's data, people and processes. The build is now real—and so are the dependencies."
+    },
+    {
+      "id": 5,
+      "title": "Governance set-up",
+      "landmark": "Canary Wharf",
+      "type": "decision",
+      "question": "What level of governance do you put in place at this point?",
+      "option1": {
+        "response": "You delay agent creation to ensure the appropriate governance is in place.",
+        "outcome": "By delaying the agent implementation, you introduce a six-week delay. You receive a series of pointed questions from the board about showing value within the given timeframe.",
+        "security_risk_impact": 0,
+        "project_delay_impact": 6,
+        "board_happiness_impact": -30
+      },
+      "option2": {
+        "response": "You progress the project and set up governance in parallel.",
+        "outcome": "Governance development is fragmented, and many teams in the project scope have incomplete information about the requirements and guidelines.",
+        "security_risk_impact": -10,
+        "project_delay_impact": 1,
+        "board_happiness_impact": -5
+      }
+    },
+    {
+      "id": 6,
+      "title": "Security guidelines",
+      "landmark": "Greenwich",
+      "type": "decision",
+      "question": "Do you take the time to identify and implement robust security controls?",
+      "option1": {
+        "response": "You analyse the top 10 security risks associated with the planned AI infrastructure and use cases.",
+        "outcome": "You introduce another two weeks of delay, but identify the key risks and submit a request for security teams to implement controls while delivery continues.",
+        "security_risk_impact": -25,
+        "project_delay_impact": 2,
+        "board_happiness_impact": -10
+      },
+      "option2": {
+        "response": "You prioritise speed and decide the current security baseline controls and hardening are sufficient.",
+        "outcome": "You progress and apply the currently documented controls. The delivery plan stays on track, but unknown AI-specific exposures remain.",
+        "security_risk_impact": 25,
+        "project_delay_impact": 0,
+        "board_happiness_impact": 0
+      }
+    },
+    {
+      "id": 7,
+      "title": "Agent development",
+      "landmark": "The O2",
+      "type": "comment",
+      "message": "The agents are built and tested. Early demonstrations create excitement, but a working prototype is not yet a dependable operating service."
+    },
+    {
+      "id": 8,
+      "title": "Usage in BAU",
+      "landmark": "South Bank",
+      "type": "decision",
+      "question": "How do you measure the success of the created agents?",
+      "option1": {
+        "response": "You benchmark activities performed without and then with the created AI agents.",
+        "outcome": "You can measure efficiency gains from using AI and communicate them clearly; the board is very pleased with these initial results.",
+        "security_risk_impact": 0,
+        "project_delay_impact": 0,
+        "board_happiness_impact": 50
+      },
+      "option2": {
+        "response": "You report anecdotal success stories and focus on expanding usage as quickly as possible.",
+        "outcome": "Adoption rises quickly, but without a baseline you cannot prove value or identify where the agents are creating hidden rework for teams.",
+        "security_risk_impact": 5,
+        "project_delay_impact": 1,
+        "board_happiness_impact": -15
+      }
+    },
+    {
+      "id": 9,
+      "title": "Ongoing security",
+      "landmark": "London Eye",
+      "type": "comment",
+      "message": "Welcome to the ongoing work: monitoring, hardening, ownership and continuous improvement. AI transformation is a journey, not a launch event."
+    }
+  ]
+}
