@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Initial decision",
-      "landmark": "Westminster",
+      "landmark": "London Eye",
       "type": "decision",
       "question": "How do you respond to your board?",
       "option1": {
@@ -25,7 +25,7 @@
     {
       "id": 2,
       "title": "Use case identification",
-      "landmark": "St Paul's",
+      "landmark": "Big Ben",
       "type": "decision",
       "question": "But what do you implement now?",
       "option1": {
@@ -46,21 +46,21 @@
     {
       "id": 3,
       "title": "Scoping",
-      "landmark": "The City",
+      "landmark": "Hyde Park",
       "type": "comment",
       "message": "The scope begins to take shape. You have a visible opportunity, but every promise you make now will create expectations for the teams who must deliver it."
     },
     {
       "id": 4,
       "title": "Technology selection",
-      "landmark": "Tower Bridge",
+      "landmark": "Liberty",
       "type": "comment",
       "message": "Your teams select the foundation technology and start connecting it to the organisation's data, people and processes. The build is now real—and so are the dependencies."
     },
     {
       "id": 5,
       "title": "Governance set-up",
-      "landmark": "Canary Wharf",
+      "landmark": "Saint Paul",
       "type": "decision",
       "question": "What level of governance do you put in place at this point?",
       "option1": {
@@ -81,7 +81,7 @@
     {
       "id": 6,
       "title": "Security guidelines",
-      "landmark": "Greenwich",
+      "landmark": "HMS Belfast",
       "type": "decision",
       "question": "Do you take the time to identify and implement robust security controls?",
       "option1": {
@@ -102,14 +102,14 @@
     {
       "id": 7,
       "title": "Agent development",
-      "landmark": "The O2",
+      "landmark": "Tower of London",
       "type": "comment",
       "message": "The agents are built and tested. Early demonstrations create excitement, but a working prototype is not yet a dependable operating service."
     },
     {
       "id": 8,
       "title": "Usage in BAU",
-      "landmark": "South Bank",
+      "landmark": "Canary Wharf",
       "type": "decision",
       "question": "How do you measure the success of the created agents?",
       "option1": {
@@ -130,7 +130,7 @@
     {
       "id": 9,
       "title": "Ongoing security",
-      "landmark": "London Eye",
+      "landmark": "Greenwich Royal Observatory",
       "type": "comment",
       "message": "Welcome to the ongoing work: monitoring, hardening, ownership and continuous improvement. AI transformation is a journey, not a launch event."
     }
